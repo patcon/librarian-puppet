@@ -22,9 +22,7 @@ Gem::Specification.new do |s|
 
   s.executables = ['librarian-puppet']
 
-  s.add_dependency "thor", "~> 0.15"
-  s.add_dependency "json"
-  s.add_dependency "librarian"
+  s.add_dependency "librarian", "~> 0.1.0.beta.1"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "cucumber"
